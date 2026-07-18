@@ -13,7 +13,7 @@
         <Description>SparkplugNet is a library to use the Sparkplug IIoT standard in .Net.</Description>
         <PackageTags>c# csharp sparkplug mqtt</PackageTags>
         <PackageProjectUrl>https://www.nuget.org/packages/SparkplugNet/</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/heppth/SparkplugNet</RepositoryUrl>
+        <RepositoryUrl>https://github.com/bluegrassiot/SparkplugNet</RepositoryUrl>
         <PackageIcon>Icon.png</PackageIcon>
         <RepositoryType>Github</RepositoryType>
         <PackageReleaseNotes>Version 1.3.10.0 (2024-07-02): Fixed negative values conversion issues, fixes https://github.com/SeppPenner/SparkplugNet/issues/96.</PackageReleaseNotes>
@@ -28,7 +28,7 @@
         <NoWarn>NU1803,CS0618,CS0809,NU1901,NU1902</NoWarn>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
         <NuGetAuditMode>all</NuGetAuditMode>
-        <Version>1.4.0-patched</Version>
+        <Version>1.4.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
@@ -41,7 +41,7 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="MQTTnet" Version="5.0.1.1416" />
+        <PackageReference Include="MQTTnet" Version="5.2.0.1603" />
         <PackageReference Include="protobuf-net" Version="3.2.56" />
     </ItemGroup>
 
